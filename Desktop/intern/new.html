@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="POST">
+            <div class="form__group field">
+                <input type="input" class="form__field" placeholder="Name" required="">
+                <label for="name" class="form__label">Name</label>
+            </div>
+            <div class="form__group field">
+                <input title='name@example.com' type="input" class="form__field" placeholder="Email" required="" >
+                <label for="email" class="form__label">Email</label>
+            </div>
+
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
